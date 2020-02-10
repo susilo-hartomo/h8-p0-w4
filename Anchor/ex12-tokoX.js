@@ -1,10 +1,9 @@
-function countProfit(shoppers) {
+function countProfit1(shoppers) {
     let listBarang = [
         ['Sepatu Stacattu', 1500000, 10],
         ['Baju Zoro', 500000, 2],
         ['Sweater Uniklooh', 175000, 1]
     ];
-
     // you can only write your code here!
 
     if (shoppers.length != 0) {
@@ -34,8 +33,9 @@ function countProfit(shoppers) {
     } else {
         return []
     }
-
 }
+
+
 
 // TEST CASES
 console.log('soal 1 ===========================');
@@ -115,7 +115,6 @@ function countProfit1(shoppers) {
                     barang.leftOver -= shoppers[j].amount
                     barang.totalProfit += barang.price * shoppers[j].amount
                 }
-
             }
             delete barang.price
             // console.log(barang)

@@ -49,7 +49,7 @@ console.log(cariModus([1, 2, 3, 3, 4, 5])); // 3
 console.log(cariModus([7, 7, 7, 7, 7])); // -1
 
 // CASES BELUM TERSELESAIKAN
-console.log(''); // 5
-console.log('======= CASE TAMBAHAN ======='); // 5
-console.log('belum tahu cara apabila jumlah modus sama semua dengan angka yang berbeda'); // 5
-console.log(cariModus([5, 10, 10, 6, 5, 6])); // 5
+console.log('');
+console.log('======= CASE TAMBAHAN =======');
+console.log('belum tahu cara apabila jumlah modus sama semua dengan angka yang berbeda');
+console.log(cariModus([5, 10, 10, 6, 5, 6])); // -1

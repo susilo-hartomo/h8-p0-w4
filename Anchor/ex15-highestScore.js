@@ -1,11 +1,19 @@
 function highestScore(students) {
     // Code disini
     var siswa = {}
-    for (let i = 0; i < students.length; i++) {
-        if (condition) {
 
+    for (let i = 0; i < students.length; i++) {
+        if (siswa[students[i].class] == undefined) {
+            siswa[students[i].class] = students[i]
+        } else if (siswa[students[i].class].score < students[i].score) {
+            siswa[students[i].class] = students[i]
         }
     }
+
+    for (var k in siswa) {
+        delete siswa[k].class
+    }
+
     return siswa
 }
 

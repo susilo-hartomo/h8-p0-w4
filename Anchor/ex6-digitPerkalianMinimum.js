@@ -16,19 +16,19 @@ function digitPerkalianMinimum(angka) {
     console.log(pasanganAngka);
     console.log('==================================');
 
-    var banyakPasangan = 1
+    // var banyakPasangan = 1
     var minimalDigit = pasanganAngka[pasanganAngka.length - 1].length
-    console.log(minimalDigit);
+    // console.log(minimalDigit);
 
-    for (let k = 0; k < pasanganAngka.length - 1; k++) {
-        // console.log(pasanganAngka[pasanganAngka.length - 2 - k].length);
-        if (pasanganAngka[pasanganAngka.length - 2 - k].length == minimalDigit) {
-            banyakPasangan++
-        }
+    // for (let k = 0; k < pasanganAngka.length - 1; k++) {
+    //     // console.log(pasanganAngka[pasanganAngka.length - 2 - k].length);
+    //     if (pasanganAngka[pasanganAngka.length - 2 - k].length == minimalDigit) {
+    //         banyakPasangan++
+    //     }
 
-    }
+    // }
 
-    return `Banyak pasangan angka dengan minimum digit : ${banyakPasangan} \n`
+    return `Banyak pasangan angka dengan minimum digit : ${minimalDigit} \n`
 }
 
 // TEST CASES
