@@ -14,15 +14,7 @@ function graduates(students) {
                 }
             )
         }
-        // else if (siswa[students[i].class].score < students[i].score) {
-        //     siswa[students[i].class] = students[i]
-        // }
     }
-
-    // for (var k in siswa) {
-    //     delete siswa[k].class
-    // }
-
     return siswa
 }
 
